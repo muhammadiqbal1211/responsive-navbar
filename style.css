@@ -11,8 +11,9 @@ body {
     background-position: center;
 }
 nav{
-    background-color: rgba(128, 197, 16, 0.119);
+    background-color: rgba(249, 249, 249, 0.174);
     backdrop-filter: blur(10px);
+
     box-shadow:3px 3px 5px black ;
 }
 nav ul {
@@ -50,10 +51,10 @@ nav li:first-child{
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(249, 249, 249, 0.174);
-    backdrop-filter: blur(10px);
+    background-color: rgba(8, 8, 8, 0.564);
+    backdrop-filter: blur(200px);
     box-shadow: -10px 0 10px black;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items:flex-start ;
     justify-content: flex-start;
